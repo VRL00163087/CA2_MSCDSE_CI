@@ -30,7 +30,7 @@ jobs:
       uses: einaregilsson/beanstalk-deploy@v13
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws_secret_key: ${{ secrets.AWS_SEC_ACCESS_KEY }}
         application_name: MVN_app_CA2
         environment_name: Mvnappca2-env
         version_label: ${{github.SHA}}
