@@ -30,5 +30,6 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
  </configuration>
  </plugin> 
  </plugins>
+ <finalName>mvnSimpleApp</finalName>
  </build>
 </project>
