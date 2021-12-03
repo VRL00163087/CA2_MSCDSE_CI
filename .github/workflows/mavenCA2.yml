@@ -31,8 +31,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SEC_ACCESS_KEY }}
-        application_name: MVN_app_CA2
-        environment_name: Mvnappca2-env
+        application_name: MVNAPPS_AWS_CI
+        environment_name: Mvnappsawsci-env
         version_label: ${{github.SHA}}
         region: us-east-1
-        deployment_package: target/spring-petclinic-rest-2.2.5.jar
+        deployment_package: target/mvn-app-rest-1.0.0.jar
