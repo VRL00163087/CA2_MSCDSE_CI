@@ -9,7 +9,7 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
  <name>LYITMvnTestApp</name>
  <properties>
  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
- <maven.compiler.release>15</maven.compiler.release>
+ <maven.compiler.release>12</maven.compiler.release>
  </properties>
  <dependencies>
  <dependency>
